@@ -1,0 +1,60 @@
+
+body{
+    background: linear-gradient(180deg,hotpink,orange);
+    font-size: larger;
+    color: crimson;
+    text-decoration: none;
+
+}
+.logo{
+        font-size: 27px;
+        color: blue;
+        padding: 0px;
+        height: 40px;
+        width: 30;
+        
+}
+.active{
+padding:  50px;
+}
+.active ul{
+    display: flex;
+}
+.active li{
+    list-style: none;
+}
+.active li a{
+    text-decoration: none;
+padding: 25px ;
+}
+.mine{
+    color: greenyellow;
+    border: solid black;
+    border-radius: 20px;
+    
+}
+
+.bg{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+  @media (min-aspect-ratio: 16/9){
+    .bg{
+        width: 100%;
+        height: auto;
+    }
+  }  
+
+
+
+  @media (max-aspect-ratio: 16/9){
+    .bg{
+        width: auto;
+        height: 100%;
+    }
+  }  
+
+
